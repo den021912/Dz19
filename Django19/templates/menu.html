@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title> Магазин </title>
+</head>
+<body>
+
+        {% block pagename %}
+        <h1>Главная страница</h1>
+        {% endblock %}
+
+
+
+        {% block menu %}
+        <p><a href="/yandex/"> Главная страница </a></p>
+        <p><a href="/yandex/games"> Яндекс </a> </p>
+        <p><a href="/yandex/basket"> Корзина </a> </p>
+        {% endblock %}
+
+
+
+        {% block content %}
+        <p></p>
+        {% endblock %}
+
+</body>
+</html>
